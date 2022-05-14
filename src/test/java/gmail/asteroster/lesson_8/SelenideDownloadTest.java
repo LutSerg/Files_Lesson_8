@@ -1,10 +1,9 @@
-package gmail.asteroster.examplesfromlesson;
+package gmail.asteroster.lesson_8;
 
 import com.codeborne.pdftest.PDF;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.xlstest.XLS;
 import com.opencsv.CSVReader;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.Assertions;
@@ -16,7 +15,6 @@ import java.io.*;
 import java.nio.charset.StandardCharsets;
 import java.util.List;
 import java.util.zip.ZipEntry;
-import java.util.zip.ZipFile;
 import java.util.zip.ZipInputStream;
 
 import static com.codeborne.selenide.Selenide.$;
